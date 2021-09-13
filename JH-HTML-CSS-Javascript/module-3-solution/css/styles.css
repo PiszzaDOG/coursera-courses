@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-size: 14px; 
+    color: rgb(0, 0, 0);
+    background-color:bisque;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color:black;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+#MyNavBar a {
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+#MyNavBar {
+    background-color:lavenderblush;
+}
+
+.container {
+    background-color:grey;
+    width: 85%;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    text-align:center;
+    font-weight: bold;
+}
+
+/********** Medium devices md only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices sm only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices xs only **********/
+@media (max-width: 767px) {
+
+}
